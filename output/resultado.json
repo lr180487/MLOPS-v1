@@ -1,0 +1,104 @@
+{
+  "fecha_ejecucion": "2026-10-11T17:00:46-05:00",
+  "archivo_origen": "datos.csv",
+  "filas_totales": 1000,
+  "filas_validas": 1000,
+  "filas_invalidas": 0,
+  "columnas": [
+    "id",
+    "cultivo",
+    "ciudad",
+    "temperatura",
+    "humedad",
+    "radiacion_solar",
+    "precipitacion",
+    "viento",
+    "resultado"
+  ],
+  "columnas_numericas": {
+    "temperatura": {
+      "validos": 1000,
+      "invalidos": 0,
+      "nulos_originales": 0,
+      "promedio": 20.481,
+      "min": 10.1,
+      "max": 30.9
+    },
+    "humedad": {
+      "validos": 1000,
+      "invalidos": 0,
+      "nulos_originales": 0,
+      "promedio": 69.081,
+      "min": 41.8,
+      "max": 94.9
+    },
+    "radiacion_solar": {
+      "validos": 1000,
+      "invalidos": 0,
+      "nulos_originales": 0,
+      "promedio": 18.543,
+      "min": 8.1,
+      "max": 30.0
+    },
+    "precipitacion": {
+      "validos": 1000,
+      "invalidos": 0,
+      "nulos_originales": 0,
+      "promedio": 7.089,
+      "min": 0.2,
+      "max": 17.6
+    },
+    "viento": {
+      "validos": 1000,
+      "invalidos": 0,
+      "nulos_originales": 0,
+      "promedio": 6.921,
+      "min": 1.4,
+      "max": 14.3
+    }
+  },
+  "promedio_general": {
+    "temperatura": 20.481,
+    "humedad": 69.081,
+    "radiacion_solar": 18.543,
+    "precipitacion": 7.089,
+    "viento": 6.921
+  },
+  "distribucion_resultado": {
+    "NO": 520,
+    "SI": 480
+  },
+  "distribucion_cultivo": {
+    "papa": 398,
+    "uva": 371,
+    "cafe": 231
+  },
+  "promedio_por_cultivo": {
+    "cafe": {
+      "temperatura": 20.642,
+      "humedad": 79.486,
+      "radiacion_solar": 16.96,
+      "precipitacion": 11.132,
+      "viento": 5.895
+    },
+    "papa": {
+      "temperatura": 17.196,
+      "humedad": 75.959,
+      "radiacion_solar": 16.338,
+      "precipitacion": 7.636,
+      "viento": 7.188
+    },
+    "uva": {
+      "temperatura": 23.905,
+      "humedad": 55.223,
+      "radiacion_solar": 21.895,
+      "precipitacion": 3.984,
+      "viento": 7.274
+    }
+  },
+  "tasa_si_por_cultivo": {
+    "cafe": 0.528,
+    "papa": 0.447,
+    "uva": 0.485
+  }
+}
